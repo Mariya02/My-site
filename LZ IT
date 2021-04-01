@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form name="test" method="post" action="input1.php">
+    <p><b> имя: </b>
+  <input type="text" size="40">
+  </p>
+  <p><b> подгруппа р18к2 учебного взвода:</b><Br>
+
+   <input type="radio"
+  name="kursant"
+  value="Malyshev">Malyshev<Br>
+   <input type="radio"
+  name="kursant"
+  value="Mingaleva">Mingaleva<Br>  
+   <input type="radio"
+  name="kursant"
+  value="Novikov">Novikov<Br>
+   <input type="radio"
+  name="kursant"
+  value="Ovchinnikov">Ovchinnikov<Br>
+   <input type="radio"
+  name="kursant"
+  value="Pankratova">Pankratova<Br>
+   <input type="radio"
+  name="kursant"
+  value="Pletneva">Pletneva<Br>
+   <input type="radio"
+  name="kursant"
+  value="Udghuhu">Udghuhu<Br>
+   <input type="radio"
+  name="kursant"
+  value="Sergeeva">Sergeeva<Br>
+   <input type="radio"
+  name="kursant"
+  value="Shestakova">Shestakova<Br>
+  </form>
+  <title>TEXTAREA</title>
+  <form action="select1.php" method="post" align="center">
+  <p><select size="3" multiple name="hero[]">
+  <option value="Malyshev">Malyshev</option>
+  <option value="Mingaleva">Mingaleva</option>
+  <option value="Novikov">Novikov</option>
+  <option value="Ovchinnikov">Ovchinnikov</option>
+  <option value="Pankratova">Pankratova</option>
+  <option value="Pletneva">Pletneva</option>
+  <option value="Udghuhu">Udghuhu</option>
+  <option value="Sergeeva">Sergeeva</option>
+  <option value="Shestakova">Shestakova</option>
+  </select></p>
+  <p><input type="submit" value="otpravitel"></p>
+  </form>
+  <title>button</title>
+  <p style="text align:center" align="center"><button>OK</button>
+  <button><img style="vertical align:middle">otmena</button>
+  </p>
+</body>
+</html>
