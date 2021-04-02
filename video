@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    width: 800px;background: #123456;}
+</style>
+<body>
+  <h2>Аудиофайл</h2>
+  <audio controls loop> 
+ <source src="/home/kursant/Downloads/Эх, дороги.mp3"> 
+ </audio> 
+ <h2>Видеофайл скачанный</h2>
+ <video autoplay="" loop width="800" height="400"> 
+ <source src="/home/kursant/Downloads/Bomb.mp4"> 
+ </video> 
+ <h2>Ссылка на видеофайл из ютуба<h2>
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/ehClk9_8TBI" controls></iframe>
+</body>
+</html>
