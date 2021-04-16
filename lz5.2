@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>Р18К2/2</h3></p>
+  <ol id="pervaya">
+  <li>Первая подгруппа<ol>
+
+    <li>Анисимова</li>
+    <li>Березин</li>
+    <li>Галутва</li>
+    <li>Даирова</li>
+    <li>Дьячков</li>
+    <li>Карданов</li>
+    <li>Карпов</li>
+    <li>Корабельников</li>
+    <li id="kora">Корнева</li>
+  </ol>
+<ol id="vtoraya">
+  </ol>
+    <li>Вторая подгруппа<ol>
+      <li >Малышев</li>
+      <li>Мингалева</li>
+      <li>Новиков</li>
+      <li>Овчиников</li>
+      <li id="k">Панкратова</li>
+      <li>Плетнева</li>
+      <li>Сергеева</li>
+      <li>Уджуху</li>
+      <li>Шестакова</li>
+</body>
+</html>
+
+
+
+
+
+
+#pervaya li {color: blue; }
+#pervaya >li {color: pink; }
+#kora {font-style: italic;}
+#kora ~ li {color: red;}
+#k {font-style: italic;}
+
+#k + li {color:green;}
