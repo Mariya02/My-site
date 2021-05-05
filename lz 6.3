@@ -1,0 +1,21 @@
+//задание 1
+let str= "проверка работы поиска";
+consol.log(/проверка/i.test(str))
+
+задание 2
+let str1 = 'выполнение л. р.'
+let regexp = /\W+/y;
+regexp.lastIndex = 15;
+console.log(regexp.exec(str1));
+
+задание 3
+let str2 = 'адрес электр.почты pankratova_masha_00@mail.ru'
+console.log(/@/i.test(str2)+/.com/i.test(str2))
+
+задание 4
+let str3 = 'моя номер телефона 79009569286'
+let result = str3.match(matcher:/[0-9]/)
+console.log(result)
+
+задание 5
+function ucFirst(){
