@@ -1,21 +1,35 @@
-//задание 1
-let str= "проверка работы поиска";
-consol.log(/проверка/i.test(str))
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src=".js">
+  </script>
+  <title>Document</title>
+</head>
+<body>
 
-задание 2
-let str1 = 'выполнение л. р.'
+</body>
+</html>
+
+
+//задание 1
+var str= "проверка работы поиска";
+alert(/работы/i.test(str))
+
+//задание 2
+let str1 = "выполнение лабораторной работы";
 let regexp = /\W+/y;
 regexp.lastIndex = 15;
-console.log(regexp.exec(str1));
+alert(regexp.exec(str));
 
-задание 3
+//задание 3
 let str2 = 'адрес электр.почты pankratova_masha_00@mail.ru'
-console.log(/@/i.test(str2)+/.com/i.test(str2))
+alert(/@/i.test(str2))+(/.ru/i.test(str2))
 
-задание 4
-let str3 = 'моя номер телефона 79009569286'
-let result = str3.match(matcher:/[0-9]/)
-console.log(result)
+//задание 4
+let str3 = 'моя номер телефона 79009569286';
+alert (/8|\+7?d|[0-9]/ig.test(str3))
 
-задание 5
-function ucFirst(){
+
