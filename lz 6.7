@@ -1,0 +1,77 @@
+1 zadanie
+
+function camelize(str)
+{
+  var arr = str.split('-');
+  for (var i=1; i < arr.length; i++)
+  {
+    arr[i] = arr[i].charAt(0).toUpperCase()+arr[i].slice(1);
+  }
+  return arr.join('');
+}
+alert (camelize ("my-short-string"))
+
+
+2 zadanie
+var obj = {
+className: 'my menu open'
+}
+
+function removeClass(obj, cls) {
+var arr = obj.className.split('');
+
+for(i = 0; i < arr.length; i++){
+if(arr[i] === cls){
+delete arr[i];
+}
+}
+return arr.join('');
+}
+alert(removeClass(obj, 'menu'));
+
+
+
+3 zadanie
+
+function filterRangeInPlace(arr, a, b) {
+
+for (var i = 0; i < arr.length; i++) {
+var val = arr[i];
+if (val < a || val > b) {
+arr.splice(i--, 1);
+}
+}
+
+}
+
+var arr = [5, 3, 8, 1];
+
+filterRangeInPlace(arr, 1, 4);
+alert( arr );
+
+
+4 zadanie
+
+let arr = [5, 2, 1, -10, 8];
+arr.sort((a, b)=>b-a);
+alert(arr);
+
+
+5 zadanie
+
+function sortByAge(arr) {
+arr.sort((a, b) => a.age > b.age ? 1 : -1);
+}
+
+let vasya = { name: "Вася", age: 25 };
+let petya = { name: "Петя", age: 30 };
+let masha = { name: "Маша", age: 28 };
+
+let arr = [ vasya, petya, masha ];
+
+sortByAge(arr);
+
+
+alert(arr[0].name);
+alert(arr[1].name);
+alert(arr[2].name);
