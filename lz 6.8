@@ -1,0 +1,50 @@
+1 задание
+function checkAge(age)
+{
+  if (age > 18) {
+    return true;
+  } else {
+    return confirm('Вам разрешено?');
+  }
+}
+let age = prompt('ваш возраст?');
+if(checkAge(age)) {
+  alert('доступ разрешен');
+} else {
+  alert ('Вам разрешено?');
+}
+
+
+2 задание
+function checkAge(age) {
+  return (age>18) ? true:confirm('Вам разрешено?');
+}
+var age = prompt('Возраст?');
+if(checkAge(age)){
+  alert('доступ разрешен');
+} else {
+  alert('доступ запрещен');
+}
+
+
+3 задание
+var x=prompt('введите x')
+var n=prompt('Введите n')
+alert(Math.pow(x,n))
+
+
+4 задание
+say('Вася');
+var phrase = 'привет';
+function say(name) {
+  alert(name + "," + phrase);
+}
+
+
+5 задание
+function test() {
+  alert(window);
+  var window = 5;
+  alert(window);
+}
+test();
